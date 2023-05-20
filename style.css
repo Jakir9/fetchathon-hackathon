@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1de;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* set a minimum height for the page */
+  }
+  
+  header {
+    background-color: #f7ede2;
+    color: #726a95;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    flex: 1; /* allow main section to expand to fill remaining vertical space */
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #f2e9e4;
+  }
+  
+  #search-button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #726a95;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #9f86c0;
+  }
+  
+  #results-container {
+    width: 600px;
+    padding: 20px;
+    background-color: #f7ede2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #myDiv {
+    width: 600px;
+    padding: 20px;
+    background-color: #f7ede2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background-color: #726a95;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* push the footer to the bottom of the page */
+  }
+  
